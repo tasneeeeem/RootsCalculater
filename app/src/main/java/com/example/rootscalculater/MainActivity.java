@@ -17,7 +17,7 @@ EditText etA,etB,etC;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         connectComponents();
-    } //dskfskdjhfksjdhfkjsh
+    } //dskfskdjhfksjdhfkjshxcvcxvcxv
 
     private void connectComponents() {
         etA=findViewById(R.id.etA);
