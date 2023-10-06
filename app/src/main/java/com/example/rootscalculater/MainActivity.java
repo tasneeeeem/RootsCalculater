@@ -17,7 +17,7 @@ EditText etA,etB,etC;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         connectComponents();
-    } //dskfskdjhfksjdhfkjshxcvcxvcxv
+    }
 
     private void connectComponents() {
         etA=findViewById(R.id.etA);
@@ -65,3 +65,14 @@ EditText etA,etB,etC;
         } else Toast.makeText(this, "There is no roots", Toast.LENGTH_SHORT).show();
     }
 }
+//public static double  Casting(n){
+//if (n[0]=='-') return a1*-1;
+//int i=1;
+//while(n[0]==isDigitsOnly())
+//{
+// if (n[1]=='.') bool y=true; //can we return it as a text (string)?
+// i++;
+// }
+//if (y==true) return // do we use substing or another tool here?
+//do we have to check anything else?
+//}
